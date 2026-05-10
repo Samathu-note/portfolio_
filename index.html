@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul Samathu A S — Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <nav id="nav">
+        <a href="#" class="nav-logo">Abdul Samathu A S</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#education" class="mobile-link">Education</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-bg-text" id="heroBgText">SAMATHU</div>
+        <div class="hero-badge">Open to opportunities — 2026</div>
+        <h1 class="hero-title">Full&#8209;Stack<br>Developer<br><em>&amp; Fast Learner</em></h1>
+        <p class="hero-sub">Fresh CS graduate who builds real things. I've shipped projects people actually use — and
+            I'm ready to bring that same energy to a team from day one.</p>
+        <div class="hero-chips">
+            <span class="hero-chip">Java</span>
+            <span class="hero-chip">Node.js</span>
+            <span class="hero-chip">Spring Boot</span>
+            <span class="hero-chip">PostgreSQL</span>
+            <span class="hero-chip">Tailwind CSS</span>
+            <span class="hero-chip">Git</span>
+            <span class="hero-chip">7.8 CGPA</span>
+        </div>
+        <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+                See My Projects
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+            <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="max about-grid">
+            <div>
+                <div class="about-img-wrap reveal">
+                    <div class="about-img-inner">
+                        <img src="img.png" alt="Samathu">
+                    </div>
+                    <div class="about-float-a">
+                        <strong>IT Graduate</strong>
+                        <small>Class of 2025</small>
+                    </div>
+                    <div class="about-float-b">
+                        <span>🎓</span>
+                        <div>
+                            <strong>7.8 CGPA</strong>
+                            <small>Information Technology</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <div class="section-label">About Me</div>
+                <h2 class="section-title">Building<br><em>real things</em><br>since college</h2>
+                <p>Hi, I’m Samathu — a Full Stack Developer and recent IT graduate passionate about building modern web
+                    applications.</p>
+                <p>Over the past few years, I’ve worked on projects using Java, Spring Boot, PostgreSQL, HTML, CSS, and
+                    JavaScript while continuously improving my development and problem-solving skills. I like building
+                    clean backend systems, creating user-friendly interfaces, and understanding how real-world software
+                    works behind the scenes.</p>
+                <p>Beyond academics, I’ve explored open source, completed an internship, and spent time practicing
+                    coding challenges and learning system design concepts. I’m always interested in learning new
+                    technologies and building products that create real impact.</p>
+                <div class="edu-pill">
+                    <div class="edu-pill-icon">🎓</div>
+                    <div>
+                        <strong>Al Ameen Engineering college</strong>
+                        <small>B.Tech · Information Technology</small>
+                    </div>
+                    <div class="edu-pill-badge">7.8 CGPA · 2021–2025</div>
+                </div>
+                <div style="margin-top:2.25rem; display:flex; gap:1rem; flex-wrap:wrap;">
+                    <a href="#projects" class="btn-primary">View My Projects</a>
+                    <a href="resume.pdf" download class="btn-outline">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="max">
+            <div class="skills-intro reveal">
+                <div>
+                    <div class="section-label">Technical Skills</div>
+                    <h2 class="section-title">What I<br><em>Know</em></h2>
+                </div>
+                <p style="max-width:320px; font-size:0.9rem; color:var(--ink2); font-weight:300; line-height:1.75;">
+                    Proficient in the core full-stack. Actively learning cloud and DevOps. I pick up new tools fast —
+                    that's a feature, not a disclaimer.</p>
+            </div>
+            <div class="skills-grid reveal">
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <div class="skill-name">Frontend</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                    <div class="skill-level"><span class="dot"></span>Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠</div>
+                    <div class="skill-name">Backend</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span><span class="skill-tag">Java</span><span
+                            class="skill-tag">REST APIs</span>
+                    </div>
+                    <div class="skill-level"><span class="dot"></span>Proficient</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄</div>
+                    <div class="skill-name">Databases</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span><span class="skill-tag">MySQL</span>
+                    </div>
+                    <div class="skill-level"><span class="dot"></span>Comfortable</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <div class="skill-name">Dev Tools</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span><span class="skill-tag">VS Code</span><span
+                            class="skill-tag">Docker basics</span>
+                    </div>
+                    <div class="skill-level"><span class="dot"></span>Comfortable</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <div class="skill-name">Cloud & Deploy</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Vercel</span><span class="skill-tag">AWS basics</span>
+                    </div>
+                    <div class="skill-level"><span class="dot mid"></span>Learning</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💡</div>
+                    <div class="skill-name">CS Fundamentals</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DSA</span><span class="skill-tag">OOP</span><span
+                            class="skill-tag">DBMS</span><span class="skill-tag">OS</span>
+                    </div>
+                    <div class="skill-level"><span class="dot"></span>Strong</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="max">
+            <div class="projects-header reveal">
+                <div>
+                    <div class="section-label">Selected Work</div>
+                    <h2 class="section-title">Projects<br><em>I've Built</em></h2>
+                </div>
+
+            </div>
+            <div class="projects-grid reveal">
+
+                <div class="project-card featured" data-category="fullstack">
+                    <div class="project-visual">
+                        <div class="pvi v1">
+                            <svg width="150" height="95" viewBox="0 0 150 95" fill="none" opacity="0.45">
+                                <rect x="8" y="8" width="134" height="79" rx="6" stroke="white" stroke-width="1" />
+                                <rect x="18" y="20" width="48" height="6" rx="3" fill="white" opacity="0.5" />
+                                <rect x="18" y="32" width="78" height="4" rx="2" fill="white" opacity="0.22" />
+                                <rect x="18" y="42" width="58" height="4" rx="2" fill="white" opacity="0.16" />
+                                <rect x="18" y="58" width="114" height="20" rx="4" fill="white" opacity="0.06" />
+                                <circle cx="124" cy="26" r="10" stroke="white" stroke-width="1" opacity="0.3" />
+                            </svg>
+                        </div>
+                        <div class="p-tag">Full Stack · E-commerce</div>
+                        <a href="#" class="p-gh">
+                            <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02 0 2.04.13 3 .4 2.29-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                            </svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                    <div class="p-info">
+                        <div class="p-num">01 / Featured</div>
+                        <div class="p-name">E-Commerce Website — Full Stack Shopping Platform</div>
+                        <div class="p-desc">A complete e-commerce platform with product catalog, shopping cart, user
+                            authentication, order management, and payment integration. Features product search &
+                            filtering, category browsing, wishlist, order tracking, and an admin dashboard for inventory
+                            management. Built with a Spring Boot backend serving RESTful APIs and a Next.js frontend.
+                        </div>
+                        <div class="p-stack">
+                            <span class="s-pill">Next.js</span><span class="s-pill">Spring Boot</span><span
+                                class="s-pill">Java</span><span class="s-pill">PostgreSQL</span><span
+                                class="s-pill">Tailwind CSS</span><span class="s-pill">REST API</span>
+                        </div>
+                        <div class="p-links">
+                            <a href="#">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02 0 2.04.13 3 .4 2.29-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+                                </svg>
+                                GitHub Repo
+                            </a>
+                            <a href="#">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION & EXPERIENCE -->
+    <section id="education">
+        <div class="max">
+            <div class="section-label reveal">Background</div>
+            <h2 class="section-title reveal">Education &<br><em>Experience</em></h2>
+            <div class="timeline">
+
+                <!-- <div class="t-item reveal">
+                    <div class="t-period">Jun – Aug 2024</div>
+                    <div>
+                        <div class="t-badge">Internship</div>
+                        <div class="t-role">Software Development Intern</div>
+                        <div class="t-org">TechNova Solutions, Bangalore</div>
+                        <div class="t-body">Worked on the internal tooling team building dashboards with React and
+                            Python Flask. Attended daily standups, participated in code reviews, and shipped the
+                            inventory dashboard (above) used by 30+ employees. Got real exposure to git workflows,
+                            CI/CD, and production deployments. Received a return offer letter.</div>
+                        <div class="t-chips">
+                            <span class="t-chip">React</span><span class="t-chip">Python Flask</span><span
+                                class="t-chip">MySQL</span><span class="t-chip">Agile</span><span class="t-chip">Git
+                                workflow</span><span class="t-chip">Return offer received</span>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="t-item reveal">
+                    <div class="t-period">2021 – 2025</div>
+                    <div>
+                        <div class="t-badge">Degree</div>
+                        <div class="t-role">B.Tech — Information Technology</div>
+                        <div class="t-org">Al-Ameen Engineering College · 8.1 CGPA</div>
+                        <div class="t-body">Core coursework in Data Structures & Algorithms, DBMS, Operating Systems,
+                            Computer Networks, and Software Engineering. Final year project (StudyBuddy) received the
+                            best project award. Led the Coding Club — organised 3 hackathons and mentored 20+ junior
+                            students.</div>
+                        <div class="t-chips">
+                            <span class="t-chip">7.8CGPA</span><span class="t-chip">Honor Degree</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="t-item reveal">
+                    <div class="t-period">Ongoing</div>
+                    <div>
+                        <div class="t-badge">Certifications & Self-Learning</div>
+                        <div class="t-role">Continuous Learning</div>
+                        <div class="t-org">Coursera · freeCodeCamp · CS50 · The Odin Project</div>
+                        <div class="t-body">Meta Front-End Developer Certificate (completed) · CS50 by Harvard
+                            (completed) · The Odin Project full curriculum (completed) · AWS Cloud Practitioner (in
+                            progress). I treat self-learning as seriously as any course — because that's how I learned
+                            to code in the first place.</div>
+                        <div class="t-chips">
+                            <span class="t-chip">Meta Certified</span><span class="t-chip">CS50 Complete</span><span
+                                class="t-chip">AWS In Progress</span>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="max contact-grid">
+            <div class="contact-text reveal">
+                <div class="section-label">Let's Connect</div>
+                <h2 class="section-title">Ready to<br><em>contribute</em><br>from day one</h2>
+                <p>I'm actively looking for my first full-time SDE role. I'm open to startups, product companies, and
+                    service firms — as long as the work is real and the team cares about what they build. I learn fast
+                    and I ship things. Let's talk.</p>
+                <div class="c-links">
+                    <a href="mailto:abdulsamathu632@gmail.com" class="c-link">
+                        <span>abdulsamathu632@gmail.com</span>
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" opacity="0.4">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Samathu-note" target="_blank" class="c-link">
+                        <span>github.com/samthu</span>
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" opacity="0.4">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abdul-samathu-a-s/" target="_blank" class="c-link">
+                        <span>linkedin.com/in/samthu</span>
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" opacity="0.4">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                        </svg>
+                    </a>
+                    <a href="resume.pdf" download class="c-link">
+                        <span>Download Resume (PDF)</span>
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" opacity="0.4">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form reveal">
+                <div class="f-row">
+                    <div class="f-group">
+                        <label class="f-label">Your Name</label>
+                        <input type="text" class="f-input" placeholder="Jane Smith" />
+                    </div>
+                    <div class="f-group">
+                        <label class="f-label">Email</label>
+                        <input type="email" class="f-input" placeholder="jane@company.com" />
+                    </div>
+                </div>
+                <div class="f-group">
+                    <label class="f-label">Company & Role</label>
+                    <input type="text" class="f-input" placeholder="e.g. Startup Inc. — SDE-1 opening" />
+                </div>
+                <div class="f-group">
+                    <label class="f-label">Message</label>
+                    <textarea class="f-textarea"
+                        placeholder="Tell me about the opportunity or just say hello..."></textarea>
+                </div>
+                <button class="btn-light" id="sendBtn">
+                    Send Message
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Abdul Samathu — Fresher. Not finished.</p>
+        <div class="f-links">
+            <a href="#hero">Top ↑</a>
+            <a href="mailto:abdulsamathu632@gmail.com">Email</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
